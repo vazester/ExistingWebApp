@@ -26,5 +26,10 @@ namespace ExistingWebApp.Controllers
 
             return View();
         }
+
+        public ActionResult New()
+        {
+            return View();
+        }
     }
 }
